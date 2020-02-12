@@ -22,4 +22,11 @@ public class UserController{
 		return "user/update";
 		
 	}
+
+	@RequestMapping("user/delete.do")
+	public String delete(){
+		logger.info("경로  : delete");
+		return "user/delete";
+		
+	}
 }
